@@ -1,0 +1,17 @@
+
+*.iml
+.gradle
+.idea
+.DS_Store
+.kotlin
+*/kotlin
+build
+*/build
+captures
+.externalNativeBuild
+.cxx
+local.properties
+xcuserdata/
+Pods/
+*.jks
+*yarn.lock
