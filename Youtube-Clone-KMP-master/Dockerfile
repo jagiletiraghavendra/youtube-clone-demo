@@ -12,7 +12,7 @@ RUN ./gradlew jsBrowserProductionWebpack
 # Runtime Stage
 FROM nginx:alpine
 
-COPY --from=build /app/composeApp/build/dist/js/productionExecutable/ /usr/share/nginx/html
+COPY --from=build /app/composeApp/build/dist/js/productionExecutable/*.js /usr/share/nginx/html/
 
 EXPOSE 80
 
